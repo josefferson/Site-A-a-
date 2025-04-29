@@ -1,0 +1,96 @@
+
+nav a:hover {
+   color: darkmagenta;  /* nav a:houver   coloca um efeito de cor no Home*/ 
+  text-decoration: underline;   /*faz com que ao passar o mause sobre o link de navegaçao fique sublinhado*/ 
+}
+
+
+/*carrosel responsivo*/
+.carousel-item{
+
+    width: 100%;
+    height: auto;
+    
+ }
+
+   /*coloquei a img do carrosel com altura minima*/
+   .carousel-inner img {
+
+      min-height: 300px;
+      object-fit: cover;    
+  }
+
+/*mudei a cor das letras do menu*/
+.navbar-light .navbar-nav .nav-link{
+   color:darkmagenta
+}
+
+
+/********** CSS BOTAO SETA SIMA*********/
+
+.go-top {
+   position: fixed;
+   bottom: 2em;
+   right: 2em;
+   text-decoration: none;
+   text-align: center;
+  
+ }
+ 
+.conteudo-secao{
+   background-color: #888;
+   padding: 1.5rem;
+   color: white;
+}
+/*muda a cor do texto Quem Somos*/
+.well{
+   padding: 16px 20px;
+   font-size: 20px;
+   color: #317201; 
+}
+
+/*Imagens de misto quente*/
+.imagem-capa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;   
+}
+
+/*Imagens do açai na tijela de frutas*/
+
+.imagem-acai{
+  
+  height: auto;
+  max-width:1400px
+}
+
+  /*centralizar os textos do h5 de todas imagens*/
+h5{
+  text-align: center;
+}
+
+/* colocar opacidade em img galeria*/
+
+#galeria {
+   opacity: 1;         /* quando o mause estiver por cima eu vejo 100% da img*/
+	transition: 400ms; /* faz a transiçao ao passar o mause na img demorando 400ms*/
+	box-shadow:  #ebe8e8; /* colocando uma sombra na imagem 10px no eixo X,Y o 5px vai de solido para transparente para cria uma outra sombra colocar uma virgula antes do ponto e virgula e continue*/
+}
+
+#galeria :hover {
+   opacity: 0.3;   /* opacidade de 30% na img*/
+}
+
+/*Imagens de coxinhas*/
+.imagem-capa01 {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;   
+}
+
+.my-3 {
+   text-align: center;
+}
+
