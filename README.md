@@ -1,2 +1,0 @@
-# Site-Açaí
-site
